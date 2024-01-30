@@ -1,0 +1,61 @@
+/* 
+
+h1 {
+  background-color: blue;
+}
+
+p {
+  color: rgb(0, 192, 166);
+} */
+
+/* El punto es para CLASS */
+/* .parrafoBorde {
+  font-size: 20px;
+  border: 5px solid brown;
+  color: bisque;
+} */
+
+/* El numeral es para ID */
+/* #soyUnico {
+  background-color: cadetblue;
+  color: blue;
+}
+
+#soyOTROid {
+  background-color: rgb(75, 137, 13);
+} */
+
+/* EJERCICIO */
+
+h1 {
+  color: gray;
+  font-size: 40px;
+}
+
+.skill {
+  color: green;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.prueba {
+  background-color: blue;
+  /*   padding: 20px;
+  margin: 20px;
+ */
+
+  /*   padding-top: 20px;
+  margin-bottom: 15px; */
+
+  /* El primer valor modifica top y bottom y e segundo left y right */
+  padding: 20px 15px;
+  border: 10px solid white;
+}
+
+
+.cajita {
+  color: burlywood;
+}

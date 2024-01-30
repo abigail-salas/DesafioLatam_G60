@@ -1,0 +1,35 @@
+body {
+  bottom: 0px;
+}
+
+.boton {
+  background-color: blueviolet;
+  color: black;
+}
+
+.boton:hover {
+  background-color: aliceblue;
+  color: black;
+}
+
+#titulo {
+  color: rgb(34, 203, 136);
+}
+
+.titulo {
+  color: rgb(34, 203, 136);
+}
+
+/* .rojo {
+  background-color: brown;
+  color: aliceblue;
+  border: 2px solid black;
+
+} */
+
+.piePagina {
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+}
