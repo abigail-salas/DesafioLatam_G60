@@ -10,7 +10,7 @@ body {
 
 .boxes {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 /* .alignItems div {
-  border: 2px solid white;
+  text-align: center;
 } */
 
 .hero {
@@ -47,17 +47,21 @@ body {
   text-align: center;
   font-size: 1.4em;
   text-shadow: 1px 1px black;
-  background-color: rgba(15, 15, 15, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   color: white;
   font-stretch: expanded;
   height: 8em;
   width: 100%;
   padding: 1em 8em;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center; */
 }
 
 menu {
   background-color: darkcyan;
-
   width: 10em;
 }
 
@@ -65,7 +69,6 @@ menu ul {
   margin: 0;
   padding: 0;
   display: flex;
-
   flex-direction: column;
   min-height: 100vh;
 }
@@ -90,9 +93,10 @@ menu li:hover {
 
 .padre {
   display: flex;
-  justify-content: flex-start;
 }
 
 .derecha {
-  margin: 20px;
+  margin-left: 20px;
+  border: 2px solid white;
+  width: 100%;
 }
