@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-out 2s;
+}
+
+button:hover {
+  background-color: rgb(255, 140, 0);
+  color: black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  margin: 10px;
+  transition: width 2s ease-out, height 1s ease-out;
+}
+
+.box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(11, 163, 110);
+  font-size: 25px;
+}
+
+a span {
+  transition: all 2s;
+}
+
+a span:hover {
+  text-transform: capitalize;
+  color: darkblue;
+}
+
+.tf {
+  width: 100px;
+  height: 100px;
+  background-color: cornflowerblue;
+  /*  margin: 60px;
+  transform: rotate(45deg) scale(1.5); */
+  transform: rotate(45deg);
+  margin: 30px;
+}
+
+.tf2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(1, 60, 169);
+  transform: rotate(30deg);
+  margin: 60px;
+  transition: all 1s;
+}
+
+.tf2:hover {
+  transform: rotate(30deg) scale(2);
+  margin: 100px;
+}
+
+.animation {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  animation-name: colorear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes colorear {
+  from {
+    background-color: #0079a1;
+  }
+  to {
+    background-color: orange;
+  }
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.text {
+  font-size: 3em;
+  animation: move 4s ease infinite;
+  animation-direction: alternate;
+  position: absolute;
+}
+
+@keyframes move {
+  /*  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(200px);
+  } */
+
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(0) rotate(180deg);
+  }
+  75% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
