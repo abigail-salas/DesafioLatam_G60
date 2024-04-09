@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Condicionales + DOM -->
+
+    <p id="secret-result"></p>
+    <input type="text" id="input" placeholder="PALABRA SECRETA" />
+    <button
+      onclick="
+let value = document.querySelector('#input').value;
+
+if (value == 'password-secreto') {
+  let par = document.querySelector('#secret-result');
+  par.innerHTML = 'Lo lograste';
+} else {
+    console.error('MENSAJE INCORRECTO')
+}"
+    >
+      Verificar
+    </button>
+
+    <!-- EJERCICIO -->
+
+    <p id="grados"></p>
+    <input type="text" id="input-value" placeholder="grados" />
+    <button
+      onclick="
+let entrada = document.querySelector('#input-value').value;
+
+if (entrada > 50) {
+  let par = document.querySelector('#grados');
+  par.innerHTML = 'Superaste la cantidad';
+}"
+    >
+      Verificar
+    </button>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
