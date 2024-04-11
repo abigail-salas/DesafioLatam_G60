@@ -95,7 +95,7 @@ if (grados > 30) {
   console.log("uff que calor");
 } */
 
-let px = prompt("Ingresa un número de pixeles");
+let px = Number(prompt("Ingresa un número de pixeles"));
 
 
 if (px < 576) {
