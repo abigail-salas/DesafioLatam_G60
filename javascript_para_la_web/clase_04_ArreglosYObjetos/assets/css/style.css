@@ -1,0 +1,12 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+.articulos {
+  width: 250px;
+  padding: 20px;
+  background-color: lightgray;
+  color: black;
+  border-radius: 20%;
+}
