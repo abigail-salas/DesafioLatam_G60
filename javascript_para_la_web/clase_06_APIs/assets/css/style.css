@@ -1,0 +1,38 @@
+body {
+  background-color: #101419;
+  color: aliceblue;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.card {
+  border-radius: 10%;
+  border: 3px solid #efc7c2;
+  color: #ffe5d4;
+  background-color: #4c061d;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  align-items: center;
+  row-gap: 15px;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+}
+
+.card .img {
+  width: 180px;
+  height: 180px;
+}
+
+.card .name {
+  font-size: 40px;
+}
+
+.card .city {
+  font-size: 20px;
+}
