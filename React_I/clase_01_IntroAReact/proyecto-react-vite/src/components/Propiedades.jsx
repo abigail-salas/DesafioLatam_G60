@@ -1,6 +1,6 @@
 import React from "react";
 
-function Propiedades({ title, price }) {
+function Propiedades({ title = "hola", price }) {
   let estilos = { backgroundColor: "#C4B9A5", color: "#725A2C" };
 
   /* Ejemplo de destructure */

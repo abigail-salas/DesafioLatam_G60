@@ -1,0 +1,19 @@
+.input {
+  margin: 20px;
+  background-color: #4f2958;
+  color: #fffbb7;
+  border-radius: 20px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-btn {
+  background-color: #fffbb7;
+  color: #4f2958;
+  border-radius: 20px 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  text-align: center;
+}
