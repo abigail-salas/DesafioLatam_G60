@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "title": "El Quijote de la Mancha",
+      "author": "Miguel de Cervantes",
+      "genre": "Novela",
+      "image": "/assets/quijote.jpg",
+      "description": "Un clásico de la literatura española.",
+      "price": 2650
+    },
+    {
+      "id": 2,
+      "title": "Cien Años de Soledad",
+      "author": "Gabriel García Márquez",
+      "genre": "Realismo Mágico",
+      "image": "/assets/cien-anios.jpg",
+      "description": "Una obra maestra del realismo mágico.",
+      "price": 2200
+    },
+    {
+      "id": 3,
+      "title": "Don Juan Tenorio",
+      "author": "José Zorrilla",
+      "genre": "Drama",
+      "image": "/assets/don-juan.jpg",
+      "description": "Un drama romántico del Siglo de Oro.",
+      "price": 2150
+    },
+    {
+      "id": 4,
+      "title": "La Sombra del Viento",
+      "author": "Carlos Ruiz Zafón",
+      "genre": "Novela",
+      "image": "/assets/sombra-del-viento.jpg",
+      "description": "Una historia de misterio en la Barcelona de posguerra.",
+      "price": 2800
+    },
+    {
+      "id": 5,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Distopía",
+      "image": "/assets/1984.jpg",
+      "description": "Una visión oscura y perturbadora del futuro.",
+      "price": 1200
+    },
+    {
+      "id": 6,
+      "title": "El Principito",
+      "author": "Antoine de Saint-Exupéry",
+      "genre": "Fábula",
+      "image": "/assets/el-principito.jpg",
+      "description": "Una historia para niños y adultos sobre la vida y la amistad.",
+      "price": 1100
+    }
+  ]
+  
