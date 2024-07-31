@@ -4,8 +4,8 @@ import React from "react";
 function Navbar() {
   return (
     <nav>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/cart">Cart</NavLink>
+      <NavLink to={"/"}>Home</NavLink>
+      <NavLink to={"/cart"}>Cart</NavLink>
     </nav>
   );
 }

@@ -6,6 +6,8 @@ function BookCard({ book }) {
   const navigate = useNavigate();
   const { addToCart } = useBooks();
 
+  const irAlLibro = () => navigate(`/book/${book.id}`);
+
   return (
     <div>
       <img src={book.image} alt="" />
@@ -13,7 +15,7 @@ function BookCard({ book }) {
       <p>{book.description}</p>
       <p>${book.price}</p>
 
-      <button onClick={() => navigate(`book/${book.id}`)}>Ver Detalles</button>
+      <button onClick={irAlLibro}>Ver Detalles</button>
       <button onClick={() => addToCart(book)}>Agregar al Carrito</button>
     </div>
   );

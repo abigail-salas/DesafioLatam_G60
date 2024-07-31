@@ -14,9 +14,8 @@ function CartItem({ item }) {
           ${item.price} X {item.quantity}
         </p>
       </div>
-
-      <button onClick={() => incrementQuantity(item.quantity)}>+</button>
-      <button onClick={() => decrementQuantity(item.quantity)}>-</button>
+      <button onClick={() => decrementQuantity(item.id)}>-</button>
+      <button onClick={() => incrementQuantity(item.id)}>+</button>
 
       <button onClick={() => removeFromCart(item.id)}>remove</button>
     </div>
