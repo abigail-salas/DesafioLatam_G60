@@ -5,19 +5,23 @@ function CartItem({ item }) {
   const { removeFromCart, incrementQuantity, decrementQuantity } = useBooks();
 
   return (
-    <div>
+    <div className="cart-item">
       <img src={item.image} alt="" />
 
-      <div>
-        <h4>{item.title}</h4>
-        <p>
-          ${item.price} X {item.quantity}
-        </p>
-      </div>
-      <button onClick={() => decrementQuantity(item.id)}>-</button>
-      <button onClick={() => incrementQuantity(item.id)}>+</button>
+      <h4>{item.title}</h4>
+      <p>
+        ${item.price} X{" "}
+        {item.quantity > 1
+          ? `${item.quantity} unidades`
+          : `${item.quantity} unidad`}
+      </p>
 
-      <button onClick={() => removeFromCart(item.id)}>remove</button>
+      <div className="button-group">
+        <button className="button button-small" onClick={() => decrementQuantity(item.id)}>-</button>
+        <button className="button button-small" onClick={() => incrementQuantity(item.id)}>+</button>
+
+        <button className="button " onClick={() => removeFromCart(item.id)}>remove</button>
+      </div>
     </div>
   );
 }

@@ -10,14 +10,17 @@ function BookDetail() {
   return (
     <div>
       {book ? (
-        <>
-          <img src={book.image} alt="" />
-          <h3>{book.title}</h3>
+        <div className="container book-detail">
+          <img src={book.image} alt={book.title} />
+          <h2>{book.title}</h2>
+          <p>{book.author}</p>
           <p>{book.description}</p>
           <p>${book.price}</p>
-
-          <button onClick={() => addToCart(book)}>Agregar al Carrito</button>
-        </>
+          <p>Genero: {book.genre}</p>
+          <button className="button" onClick={() => addToCart(book)}>
+            Agregar al Carrito
+          </button>
+        </div>
       ) : (
         <p>Libro no encontrado</p>
       )}

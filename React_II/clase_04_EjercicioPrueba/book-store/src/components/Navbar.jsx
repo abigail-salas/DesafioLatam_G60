@@ -3,7 +3,7 @@ import React from "react";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <NavLink to={"/"}>Home</NavLink>
       <NavLink to={"/cart"}>Cart</NavLink>
     </nav>

@@ -5,10 +5,10 @@ function NotFound() {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h2>404 - Page Not Found</h2>
+    <div className="container">
+      <h2 className="header">404 - Page Not Found</h2>
 
-      <button onClick={() => navigate("/")}>Ir a Home</button>
+      <button className="button" onClick={() => navigate("/")}>Ir a Home</button>
     </div>
   );
 }

@@ -6,10 +6,13 @@ function Home() {
   const { books } = useBooks();
 
   return (
-    <div>
-      {books.map((book) => (
-        <BookCard key={book.id} book={book} />
-      ))}
+    <div className="container">
+      <h1 className="header">Book Store</h1>
+      <div className="book-list">
+        {books.map((book) => (
+          <BookCard key={book.id} book={book} />
+        ))}
+      </div>
     </div>
   );
 }
