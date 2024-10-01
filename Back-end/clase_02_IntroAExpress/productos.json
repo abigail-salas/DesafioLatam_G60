@@ -1,0 +1,9 @@
+[
+  { "id": 1, "nombre": "Audifonos", "precio": 18990 },
+  { "id": 2, "nombre": "Aro de Luz", "precio": 21990 },
+  { "id": 3, "nombre": "Monitor", "precio": 59990 },
+  { "id": 4, "nombre": "Mouse", "precio": 54352 },
+  { "id": 5, "nombre": "Mouse Pad", "precio": 159 },
+  { "id": 6, "nombre": "Camara", "precio": 156452 },
+  { "hola": 61563, "nose": "otro", "precio": 156452 }
+]
