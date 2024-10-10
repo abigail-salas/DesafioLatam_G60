@@ -14,8 +14,8 @@ CREATE TABLE viajes (
 
 const pool = new Pool({
   host: "localhost",
-  user: "postgres",
-  password: "1234",
+  user: process.env.USER,
+  password: process.env.PASSWORD,
   database: "plan_de_viajes",
   allowExitOnIdle: true,
 });
