@@ -2,5 +2,16 @@
   "dependencies": {
     "express": "^4.21.1",
     "pg": "^8.13.0"
-  }
+  },
+  "name": "clase_04_basededatos_ii",
+  "version": "1.0.0",
+  "description": "- `express.Router();``: es un mecanismo para crear rutas en aplicaciones que utilicen express. Permite agrupar rutas relacionadas y manejar rutas especificas que esten en modulos separados , esto ayuda a modularizar el código.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

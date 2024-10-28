@@ -4,5 +4,16 @@
     "express": "^4.21.1",
     "pg": "^8.13.0",
     "pg-format": "^1.0.4"
-  }
+  },
+  "name": "clase_05_disenioavanzadoapisrest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
