@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nombre": "Guantes de boxeo"
+  },
+  {
+    "id": 2,
+    "nombre": "Raqueta de Tenis"
+  },
+  {
+    "id": 3,
+    "nombre": "Casco de bicicleta"
+  },
+  {
+    "id": 4,
+    "nombre": "Lentes de natación"
+  }
+]
