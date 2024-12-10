@@ -264,8 +264,6 @@ proyecto-fullstack/
 2. **Prueba en Render:**
    - Una vez que todo esté desplegado, accede a las rutas del backend alojado en Render y verifica que se comuniquen correctamente con la base de datos.
 
----
-
 ## Continuación: Pasos Opcionales y Recomendaciones
 
 ### Opcional: Creación Automática de Tablas y Datos Iniciales
@@ -425,3 +423,13 @@ proyecto-fullstack/
 2. **Validar el frontend:**
 
    - Usa herramientas como **Lighthouse** o **React Testing Library** para analizar el rendimiento y la accesibilidad.
+
+## Links a videos de interes:
+
+- [Deploy con Node.js y PSQL](https://www.youtube.com/watch?v=-KEJ8_yvy0Q)
+
+- [Deploy de API REST con Node.js](https://www.youtube.com/watch?v=K0GM-GvxooY)
+
+- [Deploy Node Expressjs Postgresql on Render](https://www.youtube.com/watch?v=dndZwNDm8yo)
+
+- [Deploy de React y Nodejs (MERN)](https://www.youtube.com/watch?v=-PHi1w1elxU)
